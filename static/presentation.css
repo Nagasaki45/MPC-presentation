@@ -1,0 +1,12 @@
+body {
+  font-size: 30px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.header {
+  font-size: 70px;
+  text-decoration: underline;
+}
