@@ -1,12 +1,24 @@
+  /* General setting */
+
 body {
   font-size: 30px;
 }
 
-.centered {
-  text-align: center;
+.step {
+  width: 1000px;
 }
 
-.header {
+.main-step > h1 {
   font-size: 70px;
   text-decoration: underline;
+}
+
+img {
+  width: 100%
+}
+
+/* Local settings */
+
+.centered {
+  text-align: center;
 }
