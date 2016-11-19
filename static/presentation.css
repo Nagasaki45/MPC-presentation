@@ -1,7 +1,11 @@
   /* General setting */
 
 body {
-  font-size: 30px;
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 .step {
@@ -33,7 +37,6 @@ blockquote:before {
 /* Local settings */
 
 .main-step > h1 {
-  font-size: 70px;
   text-decoration: underline;
 }
 
