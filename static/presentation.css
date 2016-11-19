@@ -19,19 +19,21 @@ img {
 blockquote {
   font-style: italic;
   line-height: 1.45;
-  color: #7D7D7D;
+  color: #666;
+  margin: 40px;
 }
 
-blockquote > p {
-  display: inline;
-}
-
-blockquote:before {
-  font-size: 200%;
-  content: "\201C";
-  height: 1px;
+blockquote p:before {
+  content: "\201C\00a0";
   margin-left: -0.55em;
-  position:relative;
+}
+
+blockquote p:after {
+  content: "\00a0\201D";
+}
+
+.cite {
+  color: #666;
 }
 
 /* Local settings */

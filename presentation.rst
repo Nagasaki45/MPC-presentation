@@ -1,4 +1,5 @@
 :skip-help: true
+:css: static/bootstrap/css/bootstrap.min.css
 :css: static/presentation.css
 
 .. title:: Expectations in music
@@ -34,6 +35,8 @@ TODO
 
   If responses to two components have zero correlation across subjects and if responses to the combined components equal the sum of responses to the individual components (performance parity), then perceptual independence of the two individual components is assumed. Perceptual interaction of a unit or whole is defined operationally as the failure to attend selectively to individual parts.
 
+  -- Palmer & Krumhansl 1987a
+
 ----
 
 :class: main-step
@@ -51,7 +54,7 @@ Palmer & Krumhansl 1987
 Research questions
 ==================
 
-- How does temporal and pitch elements contribute to the perception of a melody.
+- How does temporal and pitch elements contribute to the perception of a melody?
 - Are temporal and pitch perceptual independent?
 
 ----
@@ -95,7 +98,6 @@ Results
 - Significant correlation between melody and other conditions.
 - No correlation between temporal and pitch conditions.
 - No effect of musical background.
-- In the melody and pitch conditions.
 - Completeness judgment correlated with the predicted tonal stability of the last note (Krumhansl & Kessler 1982) for the melody and pitch conditions.
 
 .. note::
@@ -249,14 +251,100 @@ Parmentier et al. 2011
 :data-y: r1500
 :data-x: r0
 
-Method
-======
+Research questions
+==================
 
-- Oddball tasks.
+- What do we perceive as a novel sound?
+- Contrasting 3 hypotheses for novelty perception.
 
 ----
 
-References to mention
-=====================
+1. The base-rate probability hypothesis
+=======================================
 
-- Sussman (the one that Robert covered. Check it!).
+  The repeated presentation of the standard sound results in the building up of a neural model with which incoming stimuli are compared.
+
+  A rare event, by clashing with the memory trace of a frequent one, triggers the orientation of attention towards novelty.
+
+Implies that there are no local effects.
+
+----
+
+2. The expectation hypothesis
+=============================
+
+  A sound should distract participants (...) whenever it violates the participant's expectation, irrespective of whether that sound is frequent or not.
+
+  The cognitive system uses its incidental knowledge of conditional probabilities to predict future events.
+
+Implies that expectations **do** take local events into account.
+
+----
+
+3. The local perceptual change hypothesis
+=========================================
+
+  Distraction should be observed whenever change occurs from one trial to the next, irrespective of the sounds involved, and regardless of their base-rate probability and predictability.
+
+----
+
+Experiment
+==========
+
+**Method**
+
+- Presenting a standard (sine wave, 75% of the occurrences) or novel (white noise) sound.
+- Visually presenting a number.
+- Participants decide if the number is odd or even, as fast as possible.
+
+----
+
+**Novel sounds distribution**
+
+8 out of 9 novel sounds were presented as consecutive pairs, creating 6 stimuli conditions.
+
+.. image:: media/parmentier_stimuli.png
+
+----
+
+.. class:: table table-striped thead-inverse
+
+  +----------------+----------+---------------------+-----------+-----------------------+
+  |Preceding sounds|Next sound|Base-rate probability|Expectation|Local perceptual change|
+  |                |          |prediction           |prediction |prediction             |
+  +================+==========+=====================+===========+=======================+
+  |SS              |S         |.75                  |.81        |1                      |
+  +----------------+----------+---------------------+-----------+-----------------------+
+  |SS              |N         |.25                  |.19        |0                      |
+  +----------------+----------+---------------------+-----------+-----------------------+
+  |SN              |S         |**.75**              |**.20**    |0                      |
+  +----------------+----------+---------------------+-----------+-----------------------+
+  |SN              |N         |**.25**              |**.80**    |1                      |
+  +----------------+----------+---------------------+-----------+-----------------------+
+  |NN              |S         |.75                  |.1         |0                      |
+  +----------------+----------+---------------------+-----------+-----------------------+
+
+----
+
+Results
+=======
+
+.. image:: media/parmentier_results.png
+
+**The model**
+
+A linear model of 4 parameters: the mean response time per participant, and the "distraction" for each theory (a stimuli get the value of 0 if it is predicted by the theory and 1 otherwise). The base-rate theory is insignificant for the model!
+
+----
+
+Criticism
+=========
+
+- The analysis use only correct responses for the digit parity test. What about incorrect responses?
+- Why the expectation hypothesis "remembers" two preceding events? What about the first order?
+- The model of choice. Why not linear regression of prediction profiles?
+
+----
+
+Discussion
+==========
