@@ -8,16 +8,34 @@ body {
   width: 1000px;
 }
 
-.main-step > h1 {
-  font-size: 70px;
-  text-decoration: underline;
-}
-
 img {
   width: 100%
 }
 
+blockquote {
+  font-style: italic;
+  line-height: 1.45;
+  color: #7D7D7D;
+}
+
+blockquote > p {
+  display: inline;
+}
+
+blockquote:before {
+  font-size: 200%;
+  content: "\201C";
+  height: 1px;
+  margin-left: -0.55em;
+  position:relative;
+}
+
 /* Local settings */
+
+.main-step > h1 {
+  font-size: 70px;
+  text-decoration: underline;
+}
 
 .centered {
   text-align: center;

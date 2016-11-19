@@ -30,6 +30,10 @@ Context
 
 TODO
 
+**Perceptual independence vs. perceptual interaction**
+
+  If responses to two components have zero correlation across subjects and if responses to the combined components equal the sum of responses to the individual components (performance parity), then perceptual independence of the two individual components is assumed. Perceptual interaction of a unit or whole is defined operationally as the failure to attend selectively to individual parts.
+
 ----
 
 :class: main-step
@@ -44,7 +48,20 @@ Palmer & Krumhansl 1987
 :data-y: r1500
 :data-x: r0
 
-.. image:: media/palmer_exp1_stimuli.png
+Research questions
+==================
+
+- How does temporal and pitch elements contribute to the perception of a melody.
+- Are temporal and pitch perceptual independent?
+
+----
+
+Experiment 1
+============
+
+**Stimuli**
+
+.. image:: media/palmer1_exp1_stimuli.png
 
 .. raw:: html
 
@@ -54,37 +71,47 @@ Palmer & Krumhansl 1987
 
 ----
 
-Experiment 1
-============
-
 **Independent variables:**
 
 - Condition - temporal, pitch, or melody.
 - Ending note - any note from the 2nd phrase.
 
-**Dependent variable:** judgment of "completeness" of the phrase on a scale of 1 to 7.
+**Dependent variable:**
+
+- Judgment of "completeness" of the phrase on a scale of 1 to 7.
 
 ----
 
 Results
 =======
 
-.. image:: media/palmer_exp1_results.png
+.. image:: media/palmer1_exp1_results.png
 
 ----
 
 - Main effect for ending note.
 - No main effect for condition.
-- Significant interaction between ending note and condition "indicating different effects of pitch and temporal information".
-- Significant correlation between melody and other conditions. No correlation between temporal and pitch conditions.
+- Significant interaction between ending note and condition.
+- Significant correlation between melody and other conditions.
+- No correlation between temporal and pitch conditions.
+- No effect of musical background.
+- In the melody and pitch conditions.
+- Completeness judgment correlated with the predicted tonal stability of the last note (Krumhansl & Kessler 1982) for the melody and pitch conditions.
+
+.. note::
+
+  - Only musicians.
+  - Last note influence is problematic.
 
 ----
 
-**Surprisingly**,
+**Surprisingly,**
 
-melodic rating profile can be derived algorithmically from the temporal and pitch profiles with linear regression!
+the melodic rating profile can be linearly computed from the temporal and pitch profiles!
 
-.. image:: media/palmer_exp1_model.png
+.. image:: media/palmer1_exp1_model.png
+
+**Conclusion:** temporal and pitch components are perceptual independent!
 
 ----
 
@@ -93,19 +120,24 @@ Experiment 2
 
 Addresses criticism on experiment 1 design:
 
-- Temporal and pitch condition are not musical.
-- Too much influence for the ending note.
+- Temporal and pitch condition were not musical.
+- The ending note contributed too much to the judgment.
+- Order of conditions (melody first) affected judgment of other conditions.
 
 ----
 
-.. image:: media/palmer_exp2.png
+**Stimuli**
+
+.. image:: media/palmer1_exp2_stimuli.png
 
 ----
 
 Results
 =======
 
-In line with experiment 1.
+.. image:: media/palmer1_exp2_results.png
+
+Results agree with experiment 1: same main effects and same model for deriving melody profile from other conditions.
 
 ----
 
@@ -127,7 +159,7 @@ Palmer & Krumhansl 1987
 
 - New musical excerpt (Mozart K. 331 piano sonata), now includes harmonic part.
 
-.. image:: media/palmer_exp1_stimuli_original.png
+.. image:: media/palmer2_excerpt.png
 
 .. raw:: html
 
