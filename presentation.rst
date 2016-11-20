@@ -22,18 +22,11 @@ Papers
 
 **Parmentier et al. 2011** Why are auditory novels distracting? Contrasting the roles of novelty, violation of expectation and stimulus change
 
-----
+.. note::
 
-Context
-=======
-
-TODO
-
-**Perceptual independence vs. perceptual interaction**
-
-  If responses to two components have zero correlation across subjects and if responses to the combined components equal the sum of responses to the individual components (performance parity), then perceptual independence of the two individual components is assumed. Perceptual interaction of a unit or whole is defined operationally as the failure to attend selectively to individual parts.
-
-  -- Palmer & Krumhansl 1987a
+  - Questions & discussion
+  - Unrelated
+  - Context
 
 ----
 
@@ -49,6 +42,26 @@ Palmer & Krumhansl 1987
 :data-y: r1500
 :data-x: r0
 
+Context
+=======
+
+Different models for pitch and meter:
+
+- Lerdahl & Jackendoff 1983
+- Krumhansl & Kessler 1982
+- Narmour 1990
+- More...
+
+What about a unified model for melody perception?
+
+----
+
+**Perceptual independence vs. perceptual interaction**
+
+  If responses to two components have zero correlation across subjects and if responses to the combined components equal the sum of responses to the individual components (performance parity), then perceptual independence of the two individual components is assumed. Perceptual interaction of a unit or whole is defined operationally as the failure to attend selectively to individual parts.
+
+----
+
 Research questions
 ==================
 
@@ -59,6 +72,16 @@ Research questions
 
 Experiment 1
 ============
+
+**Method**
+
+Completeness judgment for musical phrases on a scale of 1 to 7.
+
+.. note::
+
+  - Musical!
+
+----
 
 **Stimuli**
 
@@ -79,7 +102,7 @@ Experiment 1
 
 **Dependent variable:**
 
-- Judgment of "completeness" of the phrase on a scale of 1 to 7.
+- Judgment of "completeness" of the phrase.
 
 ----
 
@@ -101,13 +124,13 @@ Results
 .. note::
 
   - Only musicians.
-  - Last note influence is problematic.
+  - Last note.
 
 ----
 
 **Surprisingly,**
 
-the melodic rating profile can be linearly computed from the temporal and pitch profiles!
+the melody rating profile can be linearly computed from the temporal and pitch profiles!
 
 .. image:: media/palmer1_exp1_model.png
 
@@ -141,6 +164,14 @@ Results agree with experiment 1: same main effects and same model for deriving m
 
 ----
 
+Criticism
+=========
+
+- Reproduction with other melodies (partly addressed in Palmer & Krumhansl 1987b).
+- Reproduction with measurements other than judgment of completeness (e.g. same / different with pitch or temporal deviation).
+
+----
+
 Discussion
 ==========
 
@@ -162,10 +193,24 @@ Parmentier et al. 2011
 :data-y: r1500
 :data-x: r0
 
+Context
+=======
+
+Methods that rely on the novelty / familiarity / expectancy of stimuli:
+
+- MMN
+- Head-turning paradigm
+- Reaction time
+- More...
+
+    Novel sounds are traditionally defined as rare and unexpected.
+
+----
+
 Research questions
 ==================
 
-- What do we perceive as a novel sound?
+- What makes something novel?
 - Contrasting 3 hypotheses for novelty perception.
 
 ----
@@ -203,6 +248,8 @@ Experiment
 ==========
 
 **Method**
+
+Cross-modal response time:
 
 - Presenting a standard (sine wave, 75% of the occurrences) or novel (white noise) sound.
 - Visually presenting a number.
@@ -254,6 +301,7 @@ Criticism
 - The analysis use only correct responses for the digit parity test. What about incorrect responses?
 - Why the expectation hypothesis "remembers" two preceding events? What about the first order?
 - The model of choice. Why not linear regression of prediction profiles?
+- In this case, there is no benefit of having more memory than the last notes. What about cases that require longer memory?
 
 ----
 
