@@ -11,6 +11,10 @@
 Expectations in music
 =====================
 
+A presentation for the Music Perception and Cognition module (ECS741P) Queen Mary University of London
+
+24.11.2016
+
 Tom Gurion - PhD MAT student
 
 ----
