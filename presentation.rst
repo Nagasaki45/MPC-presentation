@@ -51,9 +51,9 @@ Context
 
 Different models for pitch and meter:
 
-- Lerdahl & Jackendoff 1983
-- Krumhansl & Kessler 1982
-- Narmour 1990
+- Lerdahl & Jackendoff 1983 grouping preference rules.
+- Krumhansl & Kessler 1982 tone hierarchies.
+- Narmour 1990 implication-realization.
 - More...
 
 What about a unified model for melody perception?
@@ -255,9 +255,9 @@ Experiment
 
 Cross-modal response time:
 
-- Presenting a standard (sine wave, 75% of the occurrences) or novel (white noise) sound.
+- Presenting a standard (sine wave, 75% of the times) or novel (white noise) sound.
 - Visually presenting a number.
-- Participants decide if the number is odd or even, as fast as possible.
+- Participants judge the parity (odd or even) of the number.
 
 ----
 
