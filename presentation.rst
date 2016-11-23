@@ -49,7 +49,7 @@ Palmer & Krumhansl 1987
 Context
 =======
 
-Different models for pitch and meter:
+Theories of pitch vs. meter:
 
 - Lerdahl & Jackendoff 1983 grouping preference rules.
 - Krumhansl & Kessler 1982 tone hierarchies.
@@ -123,12 +123,10 @@ Results
 - Significant correlation between melody and other conditions.
 - No correlation between temporal and pitch conditions.
 - No effect of musical background.
-- Completeness judgment correlated with the predicted tonal stability of the last note (Krumhansl & Kessler 1982) for the melody and pitch conditions.
 
 .. note::
 
   - Only musicians.
-  - Last note.
 
 ----
 
@@ -148,7 +146,7 @@ Experiment 2
 Addresses criticism on experiment 1 design:
 
 - Temporal and pitch condition were not musical.
-- The ending note contributed too much to the judgment.
+- Judgment is based only on the 2nd phrase.
 - Order of conditions (melody first) affected judgment of other conditions.
 
 ----
@@ -171,7 +169,8 @@ Results agree with experiment 1: same main effects and same model for deriving m
 Criticism
 =========
 
-- Reproduction with other melodies (partly addressed in Palmer & Krumhansl 1987b).
+- Reproduction with other melodies (partly addressed by Palmer & Krumhansl 1987b).
+- Non musicians.
 - Reproduction with measurements other than judgment of completeness (e.g. same / different with pitch or temporal deviation).
 
 ----
@@ -302,7 +301,7 @@ A linear model of 4 parameters: the mean response time per participant, and the 
 Criticism
 =========
 
-- The analysis use only correct responses for the digit parity test. What about incorrect responses?
+- The analysis use only correct responses for the number parity test. What about incorrect responses?
 - Why the expectation hypothesis "remembers" two preceding events? What about the first order?
 - The model of choice. Why not linear regression of prediction profiles?
 - In this case, there is no benefit of having more memory than the last notes. What about cases that require longer memory?
